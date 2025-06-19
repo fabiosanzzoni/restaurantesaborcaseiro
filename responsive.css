@@ -6,10 +6,14 @@
     }
 
     nav{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         justify-content: center;
         gap: 10px;
+    }
+
+    html{
+    scroll-padding-top: 275px;
     }
 }
