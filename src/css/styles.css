@@ -1,0 +1,132 @@
+:root {
+  --cor-fundo-site: whitesmoke;
+  --cor-primaria: brown;
+  --cor-secundaria: blanchedalmond;
+  --borda-primaria: 2px solid brown;
+  --borda-secundaria: 2px solid burlywood;
+  --borda-titulos: 4px solid burlywood;
+  --arredondar-bordas: 20px;
+  --espaçamento: 20px;
+}
+
+html {
+  scroll-padding-top: 120px;
+}
+
+body {
+  margin: 0;
+  border-radius: var(--arredondar-bordas);
+  color: var(--cor-fundo-site);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaçamento);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--cor-primaria);
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  background-color: var(--cor-secundaria);
+  padding: 10px;
+}
+
+header nav a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--cor-primaria);
+  background-color: var(--cor-secundaria);
+  padding: 20px;
+  border: var(--borda-primaria);
+  border-radius: var(--arredondar-bordas);
+}
+
+header nav a:hover {
+  border: var(--borda-secundaria);
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border: var(--borda-secundaria);
+  border-radius: var(--arredondar-bordas);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 10px;
+  gap: var(--espaçamento);
+}
+
+h2 {
+  border-bottom: var(--borda-titulos);
+}
+
+.cardapio-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--espaçamento);
+}
+
+.item {
+  border: var(--borda-primaria);
+  border-radius: var(--arredondar-bordas);
+  box-shadow: 2px 2px 4px black;
+  padding: 10px;
+  transition: transform 0.5s linear;
+  transform: scale(1);
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+.item img {
+  width: 200px;
+  height: 200px;
+  border: var(--borda-secundaria);
+  border-radius: var(--arredondar-bordas);
+}
+
+.footer-container {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 90vw;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+  border-radius: var(--arredondar-bordas);
+}
+
+.footer-redes a {
+  margin: 0px 20px 0px 20px;
+}
+
+.footer-redes a i {
+  color: var(--cor-fundo-site);
+  scale: 2;
+}
+
+.footer-copy {
+  margin-top: 20px;
+}

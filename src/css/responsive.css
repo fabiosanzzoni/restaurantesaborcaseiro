@@ -1,0 +1,13 @@
+@media (max-width: 700px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  html {
+    scroll-padding-top: 275px;
+  }
+}
