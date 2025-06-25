@@ -62,6 +62,12 @@ header nav a:hover {
   height: 100px;
   border: var(--borda-secundaria);
   border-radius: var(--arredondar-bordas);
+  transform: scale(1);
+  transition: transform 0.5s linear;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
 
 main {
