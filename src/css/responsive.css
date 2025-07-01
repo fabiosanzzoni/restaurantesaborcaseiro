@@ -3,7 +3,6 @@
     background-color: var(--cor-fundo-site);
     gap: 20vw;
     border: var(--borda-secundaria);
-    border-radius: var(--arredondar-bordas);
   }
 
   header nav .navlinks{
