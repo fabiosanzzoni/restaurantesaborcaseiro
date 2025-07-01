@@ -1,10 +1,29 @@
 @media (max-width: 700px) {
-  nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+  header{
+    background-color: var(--cor-fundo-site);
+    gap: 20vw;
+    border: var(--borda-secundaria);
+    border-radius: var(--arredondar-bordas);
+  }
+
+  header nav .navlinks{
+    display: none;
+  }
+
+  header nav a{
+    background-color: var(--cor-fundo-site);
+  }
+
+  .menu-icon{
+    display: flex;
+    font-size: 30px;
+  }
+
+  #menu-toggle:checked ~ .navlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     justify-content: center;
-    gap: 2vw;
   }
 
   html {

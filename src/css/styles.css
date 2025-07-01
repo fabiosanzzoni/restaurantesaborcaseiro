@@ -6,7 +6,7 @@
   --borda-secundaria: 2px solid burlywood;
   --borda-titulos: 4px solid burlywood;
   --arredondar-bordas: 20px;
-  --espaçamento: 20px;
+  --espacamento: 20px;
 }
 
 html {
@@ -16,13 +16,13 @@ html {
 body {
   margin: 0;
   border-radius: var(--arredondar-bordas);
-  color: var(--cor-fundo-site);
+  background-color: var(--cor-fundo-site);
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  gap: var(--espaçamento);
+  gap: var(--espacamento);
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--cor-primaria);
@@ -39,6 +39,14 @@ header {
   gap: 2vw;
   background-color: var(--cor-secundaria);
   padding: 10px;
+}
+
+#menu-toggle{
+  display: none;
+}
+
+.menu-icon{
+  display: none;
 }
 
 header nav a {
@@ -63,7 +71,7 @@ header nav a:hover {
   border: var(--borda-secundaria);
   border-radius: var(--arredondar-bordas);
   transform: scale(1);
-  transition: transform 0.5s linear;
+  transition: transform 0.2s linear;
 }
 
 .logo:hover {
@@ -76,7 +84,7 @@ main {
   max-width: 90vw;
   margin: 0 auto;
   padding: 10px;
-  gap: var(--espaçamento);
+  gap: var(--espacamento);
 }
 
 h2 {
@@ -88,7 +96,7 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: var(--espaçamento);
+  gap: var(--espacamento);
 }
 
 .item {
@@ -96,7 +104,7 @@ h2 {
   border-radius: var(--arredondar-bordas);
   box-shadow: 2px 2px 4px black;
   padding: 10px;
-  transition: transform 0.5s linear;
+  transition: transform 0.2s linear;
   transform: scale(1);
 }
 
