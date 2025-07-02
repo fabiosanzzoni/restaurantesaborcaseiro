@@ -1,24 +1,25 @@
 @media (max-width: 700px) {
-  header{
+  header {
     background-color: var(--cor-fundo-site);
     gap: 20vw;
   }
 
-  header nav .navlinks{
+  header nav .navlinks {
     display: none;
   }
 
-  header nav a{
+  header nav a {
     background-color: var(--cor-fundo-site);
   }
 
-  .menu-icon{
+  .menu-icon {
     display: flex;
     font-size: 30px;
   }
 
   #menu-toggle:checked ~ .navlinks {
     display: flex;
+    position: absolute;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
