@@ -55,7 +55,7 @@ header nav a {
   font-weight: bold;
   text-decoration: none;
   color: var(--cor-primaria);
-  background-color: var(--cor-secundaria);
+  background:linear-gradient(var(--gradient), var(--cor-terciaria), var(--cor-secundaria));
   padding: 20px;
   border: var(--borda-primaria);
   border-radius: var(--arredondar-bordas);
