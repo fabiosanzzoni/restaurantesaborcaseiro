@@ -39,7 +39,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 2vw;
-  background:linear-gradiente(var(--gradiente), var(--cor-terciaria), var(--cor-secundaria));
+  background:linear-gradient(var(--gradiente), var(--cor-terciaria), var(--cor-secundaria));
   padding: 10px;
 }
 
