@@ -8,7 +8,7 @@
   --borda-titulos: 4px solid burlywood;
   --arredondar-bordas: 20px;
   --espacamento: 20px;
-  --gradiente: to right;
+  --gradient: to right;
 }
 
 html {
@@ -39,7 +39,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 2vw;
-  background:linear-gradient(var(--gradiente), var(--cor-terciaria), var(--cor-secundaria));
+  background:linear-gradient(var(--gradient), var(--cor-terciaria), var(--cor-secundaria));
   padding: 10px;
 }
 
