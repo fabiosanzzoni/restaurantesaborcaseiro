@@ -20,6 +20,7 @@
   #menu-toggle:checked ~ .navlinks {
     display: flex;
     position: absolute;
+    right: 20px;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
