@@ -2,11 +2,13 @@
   --cor-fundo-site: whitesmoke;
   --cor-primaria: brown;
   --cor-secundaria: blanchedalmond;
+  --cor-terciaria: navajowhite;
   --borda-primaria: 2px solid brown;
   --borda-secundaria: 2px solid burlywood;
   --borda-titulos: 4px solid burlywood;
   --arredondar-bordas: 20px;
   --espacamento: 20px;
+  --gradiente: to right;
 }
 
 html {
@@ -37,7 +39,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 2vw;
-  background-color: var(--cor-secundaria);
+  background:linear-gradiente(var(--gradiente), var(--cor-terciaria), var(--cor-secundaria);
   padding: 10px;
 }
 
